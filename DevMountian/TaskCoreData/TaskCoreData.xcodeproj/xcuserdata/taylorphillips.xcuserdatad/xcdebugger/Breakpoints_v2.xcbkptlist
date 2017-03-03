@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskCoreData/TaskListTableViewController.swift"
+            timestampString = "508998158.600841"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "controller(_:didChange:at:for:newIndexPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskCoreData/TaskListTableViewController.swift"
+            timestampString = "508998279.619675"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "controller(_:didChange:atSectionIndex:for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskCoreData/TaskListTableViewController.swift"
+            timestampString = "508998506.971214"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "controller(_:didChange:at:for:newIndexPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskCoreData/TaskListTableViewController.swift"
+            timestampString = "508998553.139615"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "controller(_:didChange:at:for:newIndexPath:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskCoreData.TaskListTableViewController.controller (__ObjC.NSFetchedResultsController&lt;__ObjC.NSFetchRequestResult&gt;, didChange : Any, at : Swift.Optional&lt;Foundation.IndexPath&gt;, for : __C.NSFetchedResultsChangeType, newIndexPath : Swift.Optional&lt;Foundation.IndexPath&gt;) -&gt; ()"
+                  moduleName = "TaskCoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taylorphillips/Documents/Swift/DevMountian/TaskCoreData/TaskCoreData/TaskListTableViewController.swift"
+                  timestampString = "509262663.419558"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1023">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskCoreData.TaskListTableViewController.controller (__ObjC.NSFetchedResultsController&lt;__ObjC.NSFetchRequestResult&gt;, didChange : Any, at : Swift.Optional&lt;Foundation.IndexPath&gt;, for : __C.NSFetchedResultsChangeType, newIndexPath : Swift.Optional&lt;Foundation.IndexPath&gt;) -&gt; ()"
+                  moduleName = "TaskCoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taylorphillips/Documents/Swift/DevMountian/TaskCoreData/TaskCoreData/TaskListTableViewController.swift"
+                  timestampString = "509262663.421235"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1084">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

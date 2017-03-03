@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "44EF618868D527C80CB8FDBF10E7985F44F3DB37",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "44EF618868D527C80CB8FDBF10E7985F44F3DB37" : 9223372036854775807,
+    "C913094A1114E7F864384C0386E84D67A346CC6D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EBC8FE66-2273-4F13-9782-669D74E5217F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "44EF618868D527C80CB8FDBF10E7985F44F3DB37" : "DevMountian\/",
+    "C913094A1114E7F864384C0386E84D67A346CC6D" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "pokedex",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "pokedex\/pokedex.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/theyawninglion\/Timeline.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "44EF618868D527C80CB8FDBF10E7985F44F3DB37"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/theyawninglion\/MovieSearch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C913094A1114E7F864384C0386E84D67A346CC6D"
+    }
+  ]
+}

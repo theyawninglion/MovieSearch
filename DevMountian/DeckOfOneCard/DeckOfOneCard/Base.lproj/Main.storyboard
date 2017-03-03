@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1l0-8v-hQZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Random Card View Controller-->
+        <scene sceneID="rn8-i0-m9J">
+            <objects>
+                <viewController id="1l0-8v-hQZ" customClass="RandomCardViewController" customModule="DeckOfOneCard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="btU-ms-9Nh"/>
+                        <viewControllerLayoutGuide type="bottom" id="akK-ho-diV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="S2s-SD-oAt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3p7-Hn-I7O">
+                                <rect key="frame" x="16" y="548" width="343" height="111"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
+                                <state key="normal" title="Draw card"/>
+                                <connections>
+                                    <action selector="drawCardButtonTapped:" destination="1l0-8v-hQZ" eventType="touchUpInside" id="kWx-Js-BK1"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HrM-9R-LPe">
+                                <rect key="frame" x="24" y="50" width="327" height="490"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HrM-9R-LPe" secondAttribute="height" multiplier="327:490" id="7bq-uF-7iX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3p7-Hn-I7O" firstAttribute="leading" secondItem="S2s-SD-oAt" secondAttribute="leadingMargin" id="0Wg-w8-VbL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3p7-Hn-I7O" secondAttribute="trailing" id="6yK-z2-kiJ"/>
+                            <constraint firstItem="HrM-9R-LPe" firstAttribute="top" secondItem="btU-ms-9Nh" secondAttribute="bottom" constant="30" id="8ym-Bc-w3Y"/>
+                            <constraint firstItem="3p7-Hn-I7O" firstAttribute="height" secondItem="S2s-SD-oAt" secondAttribute="height" multiplier="1/6" id="BdS-Bd-65O"/>
+                            <constraint firstItem="HrM-9R-LPe" firstAttribute="centerX" secondItem="3p7-Hn-I7O" secondAttribute="centerX" id="LzX-5f-f62"/>
+                            <constraint firstItem="HrM-9R-LPe" firstAttribute="leading" secondItem="S2s-SD-oAt" secondAttribute="leadingMargin" constant="8" id="WUT-CX-bfR"/>
+                            <constraint firstItem="akK-ho-diV" firstAttribute="top" secondItem="3p7-Hn-I7O" secondAttribute="bottom" constant="8" id="pUw-7O-qC2"/>
+                            <constraint firstItem="3p7-Hn-I7O" firstAttribute="top" secondItem="HrM-9R-LPe" secondAttribute="bottom" constant="8" symbolic="YES" id="ymz-eD-ac4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cardImageView" destination="HrM-9R-LPe" id="5aB-xx-82j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0Y-02-h99" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="269.60000000000002" y="230.73463268365819"/>
+        </scene>
+    </scenes>
+</document>

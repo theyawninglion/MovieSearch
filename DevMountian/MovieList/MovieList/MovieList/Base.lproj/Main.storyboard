@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="I2Q-nJ-Lj2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Movie List Table View Controller-->
+        <scene sceneID="itC-O9-epV">
+            <objects>
+                <tableViewController id="KH7-SA-fTU" customClass="MovieListTableViewController" customModule="MovieList" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="J8u-on-Z6U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="movieCell" id="MVX-Qq-3by" customClass="MovieTableViewCell" customModule="MovieList" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MVX-Qq-3by" id="4Cq-Yk-vRQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RdT-hE-Zy8">
+                                            <rect key="frame" x="8" y="0.0" width="43.5" height="43.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="RdT-hE-Zy8" secondAttribute="height" multiplier="1:1" id="lmv-06-XS7"/>
+                                            </constraints>
+                                            <state key="normal" image="incomplete"/>
+                                            <connections>
+                                                <action selector="checkboxButtonTapped:" destination="MVX-Qq-3by" eventType="touchUpInside" id="78m-7v-u6W"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfZ-By-v2u">
+                                            <rect key="frame" x="59" y="11" width="308" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="RdT-hE-Zy8" secondAttribute="bottom" id="CW2-PZ-QPG"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="jfZ-By-v2u" secondAttribute="bottom" constant="3" id="KtL-6W-4tL"/>
+                                        <constraint firstItem="jfZ-By-v2u" firstAttribute="trailing" secondItem="4Cq-Yk-vRQ" secondAttribute="trailingMargin" id="PJz-7I-9Nx"/>
+                                        <constraint firstItem="jfZ-By-v2u" firstAttribute="leading" secondItem="RdT-hE-Zy8" secondAttribute="trailing" constant="7.5" id="RgQ-3J-9YU"/>
+                                        <constraint firstItem="RdT-hE-Zy8" firstAttribute="leading" secondItem="4Cq-Yk-vRQ" secondAttribute="leading" constant="8" id="a3Y-zI-acb"/>
+                                        <constraint firstItem="RdT-hE-Zy8" firstAttribute="top" secondItem="4Cq-Yk-vRQ" secondAttribute="top" id="qdt-8R-YMt"/>
+                                        <constraint firstItem="jfZ-By-v2u" firstAttribute="top" secondItem="4Cq-Yk-vRQ" secondAttribute="topMargin" constant="3" id="tZt-XT-i0Q"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="checkboxButtton" destination="RdT-hE-Zy8" id="HiD-1Z-fHi"/>
+                                    <outlet property="titleLabel" destination="jfZ-By-v2u" id="KMf-gv-dBc"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="KH7-SA-fTU" id="HIk-32-M9F"/>
+                            <outlet property="delegate" destination="KH7-SA-fTU" id="qJb-NN-alU"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="afC-2A-PUy">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="BTd-ly-lyy">
+                            <connections>
+                                <action selector="addMovieButtonTapped:" destination="KH7-SA-fTU" id="mmr-s0-KTm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T89-Fq-JAA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="831.20000000000005" y="-214.54272863568218"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="y0a-Kn-5eJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="I2Q-nJ-Lj2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HeS-6z-yaf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KH7-SA-fTU" kind="relationship" relationship="rootViewController" id="zui-2e-9nX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="930-DU-GBY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-108" y="-214.54272863568218"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="incomplete" width="512" height="512"/>
+    </resources>
+</document>

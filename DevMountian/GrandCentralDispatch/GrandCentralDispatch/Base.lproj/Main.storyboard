@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GrandCentralDispatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Lfu-ic-B4N">
+                                <rect key="frame" x="0.0" y="225" width="375" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="509299988.28254002">
+                                    <!--2017-02-20 16:13:08 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVY-PM-0rQ">
+                                <rect key="frame" x="-0.5" y="527.5" width="375" height="83.5"/>
+                                <state key="normal" title="Sleep UI"/>
+                                <connections>
+                                    <action selector="sleepButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TZV-XZ-V31"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bVY-PM-0rQ" secondAttribute="bottom" constant="56" id="7X5-rG-fPa"/>
+                            <constraint firstItem="Lfu-ic-B4N" firstAttribute="centerX" secondItem="bVY-PM-0rQ" secondAttribute="centerX" id="DeY-2f-sEG"/>
+                            <constraint firstAttribute="trailing" secondItem="Lfu-ic-B4N" secondAttribute="trailing" id="TyV-T3-A1d"/>
+                            <constraint firstItem="Lfu-ic-B4N" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WC8-oy-alm"/>
+                            <constraint firstItem="bVY-PM-0rQ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="c8D-KR-VIh"/>
+                            <constraint firstItem="bVY-PM-0rQ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1/8" id="je5-EK-C8Z"/>
+                            <constraint firstItem="Lfu-ic-B4N" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xRf-0q-28O"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="Lfu-ic-B4N" id="mKL-YY-uTY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

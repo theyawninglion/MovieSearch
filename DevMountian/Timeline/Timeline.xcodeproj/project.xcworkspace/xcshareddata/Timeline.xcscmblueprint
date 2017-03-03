@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "44EF618868D527C80CB8FDBF10E7985F44F3DB37",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "44EF618868D527C80CB8FDBF10E7985F44F3DB37" : 9223372036854775807,
+    "C913094A1114E7F864384C0386E84D67A346CC6D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C5D745B9-4A51-48D4-A93C-D3ED495B9C6C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "44EF618868D527C80CB8FDBF10E7985F44F3DB37" : "DevMountian\/",
+    "C913094A1114E7F864384C0386E84D67A346CC6D" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Timeline",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Timeline\/Timeline.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/theyawninglion\/Timeline.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "44EF618868D527C80CB8FDBF10E7985F44F3DB37"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/theyawninglion\/MovieSearch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C913094A1114E7F864384C0386E84D67A346CC6D"
+    }
+  ]
+}

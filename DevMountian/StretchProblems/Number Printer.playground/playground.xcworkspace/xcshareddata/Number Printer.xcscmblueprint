@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "44EF618868D527C80CB8FDBF10E7985F44F3DB37",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "44EF618868D527C80CB8FDBF10E7985F44F3DB37" : 9223372036854775807,
+    "C913094A1114E7F864384C0386E84D67A346CC6D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "96A0897F-6160-4CF5-B136-81670991664F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "44EF618868D527C80CB8FDBF10E7985F44F3DB37" : "DevMountian\/",
+    "C913094A1114E7F864384C0386E84D67A346CC6D" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Number Printer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "StretchProblems\/Number Printer.playground",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/theyawninglion\/Timeline.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "44EF618868D527C80CB8FDBF10E7985F44F3DB37"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/theyawninglion\/MovieSearch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C913094A1114E7F864384C0386E84D67A346CC6D"
+    }
+  ]
+}
